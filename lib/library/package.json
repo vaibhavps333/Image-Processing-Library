@@ -1,0 +1,31 @@
+{
+  "name": "imgg-p",
+  "version": "0.0.18",
+  "description": "Your package description",
+  "main": "dist/ImageProcessor.js",
+  "types": "dist/ImageProcessor.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint \"**/*.ts\"",
+    "lint:fix": "eslint \"**/*.ts\" --fix"
+  },
+  "keywords": [
+    "image",
+    "processor",
+    "enhancement",
+    "compression"
+  ],
+  "author": "Jayash",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "eslint": "^9.5.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.2.0",
+    "eslint-plugin-security": "^3.0.1",
+    "typescript": "^4.0.0"
+  }
+}
